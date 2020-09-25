@@ -1,0 +1,75 @@
+h1 {
+    font-family: "Georgia";
+    text-align: center;
+}
+
+.main_title {
+    text-align: center;
+    margin-top: 25px;
+    text-decoration: underline;
+    color: #3F4048;
+}
+
+.main_body {
+    padding: 10px;
+    margin: 5px 5px 5px;
+    text-align: center;
+}
+
+.body_p {
+    margin: 10px 100px;
+    text-align: left;
+    color: #626268;
+}
+
+body {
+    background-color: #eee;
+}
+
+.card {
+    background-color: white;
+    margin: 10px auto;
+    padding: 10px;
+    width: 1000px;
+    height: 1480px; 
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.32), 0 3px 12px 0 rgba(0, 0, 0, 0.24);
+}
+
+h3 {
+    color: #3F4048;
+}
+
+#my_dataviz {
+    margin: 20px;
+}
+
+.tooltip {
+    position: absolute;
+    text-align: center;
+    width: auto;
+    height: auto;
+    /*padding: 3px 5px 3px 5px;*/
+    font: 1em times;
+    border: 0px;
+    border-radius: 5px;
+    pointer-events: none;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+    background-color: black;
+  }
+
+.legend {
+    font-size: 12px;
+}
+rect {
+    stroke-width: .5;
+}
+
+#choropleth_viz {
+    margin: 20px;
+}
+
+.foot_note {
+    margin: 10px 100px;
+    text-align: left;
+    color: #626268;
+}

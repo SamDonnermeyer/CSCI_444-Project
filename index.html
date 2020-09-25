@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<!-- Load d3.js -->
+<script src="https://d3js.org/d3.v4.js"></script>
+
+<!-- Load color palettes -->
+<script src="https://d3js.org/d3-scale-chromatic.v2.min.js"></script>
+<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+<script src="https://d3js.org/d3-geo-projection.v2.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.24.0/d3-legend.js"></script>
+  
+<link rel="stylesheet" href="https://raw.githubusercontent.com/SamDonnermeyer/CSCI_444/master/Raster/raster.css">
+
+<!-- Head -->
+<head>
+  <meta charset="utf-8">
+  <div>
+    <title>Raster Data: Sam Donnermeyer</title>
+  </div>
+</head>
+<body class="main_body">
+  <div class="card">
+    <!-- Header 1-->
+    <h1 class = "main_title">The Best Cup of Coffee: Beans</h1>
+    <!-- Body -->
+    <!-- Body <body>-->
+    <main>
+      <div class="body_p">
+        In the pursuit of the best cup of coffee, there are a multitude of variables to account for such as, the water, temperature, grind size, and most importantly, the bean. In regard to the bean, coffee is commonly assumed to increase in quality as the elevation it was grown increases. Therefore, it must be known: 
+      </div>
+
+      <h3>Does coffee increase in quality if it is grown in a higher elevation?</h3>
+
+      <div class="body_p">
+        The Coffee Quality Institute surveys numerous coffee beans every year and rates them according to their quality measures. To understand the impact of elevation on the bean's quality, the surveys done by the Coffee Quality Institute can be analyzed to see if the coffee's quality is impacted by the elevation that it was grown at.
+      </div>
+
+      <section>
+        <!-- Create a div where the graph will take place -->
+        <div id="my_dataviz"></div>
+        <div id="legend"></div>
+      </section>
+
+      <div class="body_p">
+        It is evident that the coffee with the highest average quality grows between the interval [2, 2.5] thousand meters of elevation. Additionally, based on the Coffee Quality Institute the nation with the best average coffee is Papua New Guinea with an average score of 8.2. 
+      </div>
+
+      <section>
+        <div id="choropleth_viz"></div>
+      </section>
+
+      <div class="foot_note">
+        Source: The <a href="https://www.coffeeinstitute.org/">Coffee Quality Institute's</a> Coffee Reviews: <a href="https://github.com/jldbc/coffee-quality-database">(Data)</a>
+      </div>
+      <!-- JS file -->
+      <script src="https://raw.githubusercontent.com/SamDonnermeyer/CSCI_444/master/Raster/raster.js"></script> 
+   
+    <main>
+  </div>
+<!-- Body </body>-->
+</body>
+
+</html>
